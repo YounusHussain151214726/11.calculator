@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculater</title>
+    <link rel="icon" type="image/png" href=dm_favicon.png">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/> -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Script -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- calculator  -->
+    <div class="calculator">
+      <!-- display -->
+      <div class="calculator-display">
+        <h1 id="display"></h1>
+      </div>
+      <!-- buttons -->
+      <div class="calculator-buttons">
+        <button class="operator" id="add" value="+">+</button>
+        <button class="operator" id="subt" value="-">-</button>
+        <button class="operator" id="mult" value="*">×</button>
+        <button class="operator" id="div" value="/">÷</button>
+        <button value="7">7</button>
+        <button value="8">8</button>
+        <button value="9">9</button>
+        <button value="4">4</button>
+        <button value="5">5</button>
+        <button value="6">6</button>
+        <button value="1">1</button>
+        <button value="2">2</button>
+        <button value="3">3</button>
+        <button id="decimal" class="decimal" value=".">.</button>
+        <button onclick="get(0)" value="0">0</button>
+        <button class="clear" id="clear-btn" value="c">C</button>
+        <button class="equal-sign" id="equal" value="=">=</button>
+      </div>
+    </div>
+  </body>
+</html>
